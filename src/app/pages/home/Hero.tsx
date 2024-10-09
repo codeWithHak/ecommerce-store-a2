@@ -10,7 +10,7 @@ import ckLogo from "../../../../public/assets/images/ck-logo.png";
 export default function Hero() {
   return (
     <>
-      <div className="bg-[#F0F0F0] xl:bg-hero lg:bg-right lg:bg-no-repeat bg-cover 2xl:bg-contain  sm:py-6 md:py-0 xl:py-14 2xl:py-16 ">
+      <div className="bg-[#F0F0F0] xl:bg-hero lg:bg-right lg:bg-no-repeat bg-cover 2xl:bg-contain  sm:py-6 md:py-0 xl:py-16 ">
         <div className=" xl:w-[90%] w-full mx-auto ">
           <div id="hero__text" className="mx-auto xl:mx-0 w-[90%] ">
             <Image
@@ -21,9 +21,9 @@ export default function Hero() {
             <Image
               src={star}
               alt="star"
-              className="hidden xl:block  above1700:hidden absolute w-14 top-96 right-[37rem]"
+              className="hidden xl:block  above1700:hidden absolute w-14 top-96 right-[42%]"
             />
-            <h1 className="tracking-tighter text-4xl sm:text-6xl md:text-7xl  2xl:text-[5rem] sm:mx-auto xl:mx-0 xl:text-7xl  w-full  sm:max-w-[640px] md:max-w-[770px] xl:max-w-[550px] 2xl:max-w-[680px] transform scale-y-90 font-integral-cf font-heavy">
+            <h1 className=" tracking-tighter text-4xl sm:text-6xl md:text-7xl  2xl:text-[5rem] sm:mx-auto xl:mx-0 xl:text-7xl  w-full  sm:max-w-[640px] md:max-w-[770px] xl:max-w-[600px] 2xl:max-w-[680px] transform scale-y-90 font-integral-cf font-heavy">
               FIND CLOTHES THAT MATCHES YOUR STYLE
             </h1>
             <p className=" min-w-[360px] sm:max-w-[630px] md:max-w-[770px] xl:max-w-[650px] w-[95%] sm:mx-auto xl:mx-0 py-1 pb-3 md:pt-1 md:pb-6  md:text-2xl xl:text-xl sm:text-xl opacity-80 text-gray-9080 ">

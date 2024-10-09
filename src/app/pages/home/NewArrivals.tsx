@@ -21,7 +21,7 @@ export default function NewArrivals() {
                 <Card image={orangeStripShirt} title="Stripped T-shirt" ratings={fourPointFive} price="$130" />
               
             </div>
-            <button className="flex  mx-auto mt-12 mb-12 border border-gray-900 border-opacity-15 text-xl py-4 px-20 rounded-full text-center">View All</button>
+            <button className="flex  mx-auto mt-12 mb-12 border border-gray-900 border-opacity-15 text-xl py-2 lg:py-4 px-14 lg:px-20 rounded-full text-center">View All</button>
             <hr />
         </div>
         </section>

@@ -22,7 +22,7 @@ export default function TopSelling() {
                 <Card image={blackJeans}  title="Black Jeans" ratings={fourPointFive} price="$130" />
               
             </div>
-            <button className="flex  mx-auto mt-20 border border-gray-900 border-opacity-15  py-4 text-xl px-20 rounded-full text-center">View All</button>
+            <button className="flex  mx-auto mt-20 border border-gray-900 border-opacity-15  py-2 lg:py-4 px-14 lg:px-20 text-xl rounded-full text-center">View All</button>
         </div>
         </section>
     );
