@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth; /* Adds smooth scrolling behavior */
+}
+
+@font-face {
+  font-family: 'integral-cf';
+  src: url('/fonts/integralcf-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face{
+  font-family: "integral-cf";
+  src: url('/fonts/integralcf-heavy.woff');
+  font-weight: 900;
+  font-style: normal;
+}
