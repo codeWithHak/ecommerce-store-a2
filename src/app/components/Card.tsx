@@ -1,8 +1,8 @@
-import Image from "next/image"
+import Image, {StaticImageData} from "next/image"
 
 
 
-export default function Card ({image,title,ratings,price}:{title:string,ratings:string,price:string,image:string}){
+export default function Card ({image,title,ratings,price}:{title:string,ratings:StaticImageData,price:string,image:StaticImageData}){
     return(
         <div className="w-[90%] max-w-[300px] mx-auto ">
             <Image src={image} alt="black shirt"  className={`rounded-3xl h-44 sm:h-72 w-full   `}/>
