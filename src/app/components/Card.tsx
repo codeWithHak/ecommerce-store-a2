@@ -2,7 +2,7 @@ import Image from "next/image"
 
 
 
-export default function Card ({image,maxHeight,xlMaxHeight,title,ratings,price}:{title:string,maxHeight?:any,xlMaxHeight?:any,ratings:any,price:string,image:any}){
+export default function Card ({image,title,ratings,price}:{title:string,ratings:any,price:string,image:any}){
     return(
         <div className="w-[90%] max-w-[300px] mx-auto ">
             <Image src={image} alt="black shirt"  className={`rounded-3xl h-44 sm:h-72 w-full   `}/>
